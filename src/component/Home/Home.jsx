@@ -24,7 +24,7 @@ const Home = () => {
             });
             const totalRemaining = 20 - count;
             if(count > 20){
-                return alert("oop's ")
+                return alert("Op's You Have not Time Availave try after later")
             }else{
                 setRemaining(totalRemaining);
                 setCountTime(count);
