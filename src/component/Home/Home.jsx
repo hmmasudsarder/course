@@ -1,14 +1,21 @@
 import { useEffect } from 'react';
 import './Home.css';
 import { useState } from 'react';
+import Card from '../Card/Card';
 
 const Home = () => {
     const [courses, setCourse] = useState([]);
+    const [courseDetails, setDetails] = useState([]);
     useEffect(() => {
         fetch('../../../public/data.json')
         .then(res => res.json())
         .then(data => setCourse(data))
-    },[])
+    },[]);
+    const handelSelect = (courses) => {
+        // console.log(courses)
+        setDetails([...courseDetails, courses]);
+        
+    }
     return (
         <div>
            <div className="container">
@@ -19,10 +26,9 @@ const Home = () => {
                             <div className="card-img">
                               <img className="photo" src={course.image} alt="" />
                             </div>
-                            <h3>{course.title}</h3>
+                            <h3>{course.name}</h3>
                             <p>
                               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                            
                             </p>
                             <div className="info">
                               <div className="icons">
@@ -34,14 +40,14 @@ const Home = () => {
                               <h4>  Credit: {course.credit}</h4>
                               </div>
                             </div>
-                            <button className="card-btn">
+                            <button onClick={()=> handelSelect(course)} className="card-btn">
                               Select
                             </button>
                           </div>)
                         }
                     </div>
                     <div className="card">
-                        <h1>this is a Card</h1>
+                        <Card courseDetails={courseDetails}></Card>
                     </div>
                 </div>
             </div> 
