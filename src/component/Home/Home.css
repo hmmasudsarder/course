@@ -1,0 +1,39 @@
+.card{
+    width: 312px;
+    height: 430px;
+    border-radius: 12px;
+    padding-top: 45px;
+    background-color: white;
+}
+.page-container{
+    display: flex;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+.card-btn{
+    width: 100%;
+    background: aqua;
+    color: white;
+}
+.card-img img{
+    width: 100%;
+}
+h3{
+    font-weight: bolder;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons i{
+    padding-left: 10px;
+    padding-right: 9px;
+}
