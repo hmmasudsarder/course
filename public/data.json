@@ -2,92 +2,70 @@
     {
         "id": 1,
         "name": "Database (MySQL)",
-        "credit":"2hr",
+        "credit":2,
         "image": "https://i.ibb.co/sm87dRj/Rectangle-2-1.png",
-        "price": 7584,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "price": 7584
     },
     {
         "id": 2,
         "name": "Introduction to C Programming",
-        "credit":"1hr",
+        "credit":1,
         "image": "https://i.ibb.co/1m3VLmk/Rectangle-2-2.png",
         "price": 11544,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "country": "USA"
     },
     {
         "id": 3,
         "name": "Introduction to Algorithms",
-        "credit": "3hr",
+        "credit": 3,
         "image": "https://i.ibb.co/CV1WgqQ/Rectangle-2-3.png",
         "price": 4579,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "country": "USA"
     },
     {
         "id": 4,
         "name": "Software Engineering",
-        "credit":"5hr",
+        "credit":5,
         "image": "https://i.ibb.co/pz25MYg/Rectangle-2-5.png",
         "price": 4575,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "country": "USA"
     },
     {
         "id": 5,
         "name": "Introduction to C++ for DSA",
-        "credit":"2hr",
+        "credit":2,
         "image": "https://i.ibb.co/HG875fP/Rectangle-2-4.png",
         "price": 3568,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "country": "USA"
     },
     {
         "id": 6,
         "name": "Problem-Solving Part",
-        "credit":"3hr",
+        "credit":3,
         "image": "https://i.ibb.co/pXV3ftv/Rectangle-2-6.png",
         "price": 5678,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "country": "USA"
     },
     {
         "id": 7,
 
         "name": "AWS, Cloud Computing",
-        "credit":"4hr",
+        "credit":4,
         "image": "https://i.ibb.co/9ThCRN3/Rectangle-3-1.png",
-        "price": 8564,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "price": 8564
     },
     {
         "id": 8,
         "name": "Basic Data Structures",
-        "credit":"1hr",
+        "credit":1,
         "image": "https://i.ibb.co/QPBr1MC/Rectangle-3.png",
-        "price": 4589,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "price": 4589
     },
     {
         "id": 9,
         "name": "Introduction to OOP Python",
-        "credit":"4hr",
+        "credit":4,
         "image": "https://i.ibb.co/fv6r89B/Rectangle-2.png",
-        "price": 4586,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "price": 4586
     }
 ]

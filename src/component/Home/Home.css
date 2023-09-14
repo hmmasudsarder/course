@@ -5,6 +5,9 @@
     padding-top: 45px;
     background-color: white;
 }
+.card-two{
+    text-align: center;
+}
 .page-container{
     display: flex;
 }
@@ -36,4 +39,21 @@ h3{
 .icons i{
     padding-left: 10px;
     padding-right: 9px;
+}
+.card-show{
+    width: 312px;
+    height: 630px;
+    border-radius: 12px;
+    background-color: white;
+}
+.title-card-two{
+    color: green;
+    text-align: end;
+    
+    padding-top: 3px;
+}
+.title-cou{
+    font-weight: bolder;
+    padding-right: 40px;
+    border-top: 2px solid rgba(148, 145, 145, 0.525);
 }
