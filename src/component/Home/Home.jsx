@@ -26,7 +26,7 @@ const Home = () => {
                 count = count + item.credit;
             });
             const totalRemaining = 20 - count;
-            if(count > 20){
+            if(count >= 20){
                 return toast("Op's You Have not Time Availave try after later")
             }else{
                 setRemaining(totalRemaining);

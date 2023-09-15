@@ -1,8 +1,16 @@
-# React + Vite
+## [ my Private Repo Link](https://github.com/programming-hero-web-course2/my-course-roster-hmdmasudsarder)
+## [ my Live Site Link](https://65047bbba914f641829249b5--fascinating-nasturtium-70e055.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Questions
 
-Currently, two official plugins are available:
+- Add at least 3 Project features 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+-  useEffect use to useEffect for dataSet UI json fle
+-  useState use to first all data get
+-  fetch use for read the data
+
+- Discuss how you managed the state in your assignment project.
+
+
+- is thro the map component then get all data 
